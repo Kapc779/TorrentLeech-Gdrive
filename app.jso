@@ -1,6 +1,6 @@
 {
   "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @arvmobiles",
   "keywords": [
     "telegram"
   ],
@@ -12,27 +12,27 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "APP_ID": {
+    "APP_ID": 1538725 {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "API_HASH": {
+    "API_HASH": 03f86b5368b62b4f40b139ef29a9f95d {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "TG_BOT_TOKEN": 1592324436:AAEtr6wk_KlJxuq5pRGIln53YsHeNruciIs {
       "description": "get this value from @BotFather",
       "value": ""
     },
-    "AUTH_CHANNEL": {
+    "AUTH_CHANNEL": -1001486668590 {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
       "value": ""
     },
-    "OWNER_ID": {
+    "OWNER_ID": 863611576 {
       "description": "should be an integer. ID of owner of bot",
       "value": ""
     },
-    "UPLOAD_AS_DOC": {
+    "UPLOAD_AS_DOC": True {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
       "required": false
     },
@@ -71,7 +71,7 @@
       "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
       "required": false
     },
-    "INDEX_LINK": {
+    "INDEX_LINK": https://super-grass-3435.uploadarv.workers.dev/ {
       "description": "Enter your index link:",
       "required": false
     },
@@ -99,15 +99,15 @@
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
       "required": false
     },
-    "RCLONE_CONFIG": {
+    "RCLONE_CONFIG": 4/1AY0e-g5wFjgC2OFBsTjyFsIYH7utgQBUic-nhcGShATFnxK4cZ8E5lwcpVc {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
     },
-    "DESTINATION_FOLDER": {
+    "DESTINATION_FOLDER": content/drive {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
       "required": false
     },
-    "CUSTOM_FILE_NAME": {
+    "CUSTOM_FILE_NAME": @arvmobiles {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
     }
